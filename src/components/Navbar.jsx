@@ -12,7 +12,7 @@ const Navbar = () => {
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
         <a
-          href="https://drive.google.com/your-google-folder-link"
+          href="https://drive.google.com/file/d/15OMj2NMRSNq8UwZ_bDBfuouL2GXqgghb/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-purple-500"
