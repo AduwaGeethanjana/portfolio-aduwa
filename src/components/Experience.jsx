@@ -31,13 +31,19 @@ const Experience = () => {
                         {experience.company}
                     </span>
                 </h6>
-                <p className="mb-4 text-neutral-400">{experience.description}</p>
-                <ul className="my-2 text-neutral-400 max-w-xl py-6 space-y-4">
-                    <li className="list-disc text-justify" >{experience.project_1}</li>
-                    <li className="list-disc text-justify">{experience.project_2}</li>
-                    <li className="list-disc text-justify">{experience.project_3}</li>
+                            <p className="mb-4 text-neutral-400">{experience.description}</p>
+            <ul className="my-2 text-neutral-400 max-w-xl py-6 space-y-4">
+            {experience.project_1 && (
+                <li className="list-disc text-justify">{experience.project_1}</li>
+            )}
+            {experience.project_2 && (
+                <li className="list-disc text-justify">{experience.project_2}</li>
+            )}
+            {experience.project_3 && (
+                <li className="list-disc text-justify">{experience.project_3}</li>
+            )}
+            </ul>
 
-                </ul>
                 {experience.technologies.map((tech, index) => (
                     <span
                     key={index}
