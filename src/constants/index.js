@@ -12,6 +12,14 @@ export const ABOUT_TEXT_4 = `I enjoy exploring topics related to artificial inte
 
 export const EXPERIENCES = [
   {
+    year: "2025(June) - Present",
+    role: "Software Engineer Trainee",
+    company: "Scientier Technologies",
+    description: ` Currently contributing to full-stack development on an e-Finance project for leasing and insurance companies. Involved in building and maintaining features using Angular, .NET, C#, MS SQL, and API Management.`,
+    project_1: `e-Finance Project : Developing and maintaining core application features using Angular, .NetCore and MsSQL, implementing business logic related to loan processing, insurance modules, and payment workflows, collaborating with cross-functional teams, participating in code reviews and contributing to architectural discussions for system enhancements and supporting production deployments and resolving critical issues to ensure system stability. `,
+    technologies: ["Angular", ".NetCore", "C#", "SQL","Git","HTML","CSS","Visual Studio"],
+  },
+  {
     year: "2024 (April) - 2024 (December)",
     role: "Trainee Software Engineer",
     company: "Aeturnum Lanka",
@@ -20,7 +28,7 @@ export const EXPERIENCES = [
     project_2:`R&D Projects : Contributed to the development of an AI chatbot for customer service, enhancing my knowledge in artificial intelligence and chatbot implementation.`,
     project_3:` CDP Tools Integration: Gained experience in integrating Customer Data Platform (CDP) tools to streamline and enhance data-driven processes.`,
     technologies: ["Java", "AndroidStudio", "Node.js", "Python","Figma","Github","JavaScript","Firebase","VertexAI","Adobe"],
-  },
+  }
 ];
 
 export const PROJECTS = [
